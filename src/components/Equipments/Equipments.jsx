@@ -50,7 +50,7 @@ const Equipments = () => {
               initial="hidden"
               whileInView="visible"
               key={item.id}
-              className="space-y-4 rounded-xl bg-[#fbfbfb] bg-gray-100 p-6 hover:bg-white hover:shadow-[0_0_22px_0_rgba(0,0,0,0.15)]"
+              className="space-y-4 rounded-xl bg-gray-100 p-6 hover:bg-white hover:shadow-[0_0_22px_0_rgba(0,0,0,0.15)]"
             >
               <div className="text-4xl">{item.icon}</div>
               <div className="text-2xl font-semibold">

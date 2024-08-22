@@ -10,7 +10,7 @@ const MobileMenu = ({ openMenu }) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
-          className="absolute left-0 top-20 z-20 h-screen w-full"
+          className="absolute left-0 top-20 z-20 h-screen w-full md:hidden"
         >
           <div className="m-6 rounded-3xl bg-primary py-10 text-xl font-semibold uppercase text-white">
             <ul className="flex flex-col items-center justify-center gap-10">
@@ -18,10 +18,16 @@ const MobileMenu = ({ openMenu }) => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#">Trainer</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#">Program</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
               </li>
             </ul>
           </div>
