@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply rounded-md bg-primary px-6 py-3 font-semibold text-white duration-300 hover:scale-110;
+  }
+}
+
+@layer utilities {
+  .drop-shadow {
+    filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
+  }
+}
