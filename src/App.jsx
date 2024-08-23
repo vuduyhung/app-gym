@@ -6,6 +6,7 @@ import Equipments from "./components/Equipments/Equipments";
 import Banner from "./components/Banner/Banner";
 import ProductTab from "./components/ProductTab/ProductTab";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Banner2 from "./components/Banner/Banner2";
 
 import img1 from "./assets/2.png";
 import img2 from "./assets/3.png";
@@ -45,6 +46,7 @@ const App = () => {
         {/* <Banner {...bannerData2} /> */}
         <ProductTab />
         <Testimonials />
+        <Banner2 />
       </div>
     </div>
   );
